@@ -1,5 +1,5 @@
 {
-	"name": "sftp-deploy",
+	"name": "sftp-deploy-js",
 	"version": "1.0.0",
 	"description": "SFTP deployer using ssh2-sftp-client",
 	"main": "sftp-deploy.js",
