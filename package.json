@@ -16,5 +16,14 @@
 	"dependencies": {
 		"read": "^1.0.7",
 		"ssh2-sftp-client": "^8.0.0"
-	}
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ilya-Potseluev/sftp-deploy.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Ilya-Potseluev/sftp-deploy/issues"
+	},
+	"homepage": "https://github.com/Ilya-Potseluev/sftp-deploy#readme"
 }
