@@ -1,0 +1,20 @@
+{
+	"name": "sftp-deploy",
+	"version": "1.0.0",
+	"description": "SFTP deployer using ssh2-sftp-client",
+	"main": "sftp-deploy.js",
+	"keywords": [
+		"sftp",
+		"deploy",
+		"deploying"
+	],
+	"engines": {
+		"node": ">=8"
+	},
+	"author": "Ilya Potseluev",
+	"license": "ISC",
+	"dependencies": {
+		"read": "^1.0.7",
+		"ssh2-sftp-client": "^8.0.0"
+	}
+}
