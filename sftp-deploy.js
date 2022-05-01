@@ -38,7 +38,7 @@ export default class Deployer extends EventEmitter {
 		});
 
 		await client.connect(this.config);
-		if (this.config.rmdir) await client.rmdir(this.config.to, true);
+		if (this.config.rmdir) await client.rmdir(this.config.to, true).catch(() => {});
 		await client.uploadDir(this.config.from, this.config.to);
 		await client.end();
 		return fileCounter;
