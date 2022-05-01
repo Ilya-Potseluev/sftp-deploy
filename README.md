@@ -1,6 +1,10 @@
 # sftp-deploy-js
 SFTP deployer using [ssh2-sftp-client](https://github.com/theophilusx/ssh2-sftp-client)
-### Example
+## Installation
+```js
+npm install --save-dev sftp-deploy-js
+```
+## Example
 ```javascript
 import { fileURLToPath } from 'url';
 import path from 'path';
